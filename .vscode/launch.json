@@ -1,0 +1,21 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++ 调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件",
+            "MIMode": "gdb",
+            "miDebuggerPath": "E:\\Software\\MinGW-w64-x86_64-11.2.0-release-posix-seh-rt_v9-rev1\\mingw64\\bin\\gdb.exe",
+            "externalConsole": true
+        }
+    ]
+}
